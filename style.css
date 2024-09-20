@@ -1,1 +1,27 @@
-/* Start coding here */
+body {
+  display: flex;
+  border: solid 50px;
+  border-color: lightgrey;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.box-1 {
+  flex-basis: 25%;
+  background-color: khaki;
+}
+
+.box-2 {
+  flex-basis: 25%;
+  background-color: orange;
+}
+
+.box-3 {
+  flex-basis: 50%;
+  background-color: cornflowerblue;
+}
